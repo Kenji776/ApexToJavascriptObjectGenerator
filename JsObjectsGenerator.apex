@@ -122,7 +122,7 @@
             classDef += '\t\tthis.'+propertyName+ ' = ' + defaultVal +';\r\n';
         }
 
-        classDef += '\t\tthis.construct(constructorData,includeNulls);\r\n\t}\r\n}\r\n\r\n';
+        classDef += '\t\tthis.construct(constructorData,true);\r\n\t}\r\n}\r\n\r\n';
 
         system.debug(classDef);
 
