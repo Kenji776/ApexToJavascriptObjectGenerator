@@ -45,7 +45,9 @@
                 '\treturn returnObject;\r\n'+
             '}\r\n';
 
+		system.debug('\n\n\n\n\n\n--------------------------------------- CLASS DEFINITIONS BELOW-----------------------------------------------------');
         system.debug(classDef);
+		system.debug('\n\n\n\n\n\n--------------------------------------- END CLASS DEFINITIONS-----------------------------------------------------');
         return classDef;
     }
     public static string getSojbectDefinition(string objectName){
